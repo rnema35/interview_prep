@@ -1,0 +1,33 @@
+.dataStructure {
+    background-color: #687d64;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;  
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.structures {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(100, 122, 107);
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.title_desctiption{
+    color: rgb(67, 87, 72);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: bisque;
+}
