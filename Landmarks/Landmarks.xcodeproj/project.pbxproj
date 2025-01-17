@@ -14,6 +14,10 @@
 		B051616D2C91268100843951 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B051616C2C91268100843951 /* LandmarksTests.swift */; };
 		B05161772C91268100843951 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05161762C91268100843951 /* LandmarksUITests.swift */; };
 		B05161792C91268100843951 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05161782C91268100843951 /* LandmarksUITestsLaunchTests.swift */; };
+		B05161862C91333200843951 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05161852C91333200843951 /* CircleImage.swift */; };
+		B05161892C91356700843951 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05161882C91356700843951 /* MapView.swift */; };
+		B051618B2C91EB9700843951 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B051618A2C91EB9700843951 /* landmarkData.json */; };
+		B051618D2C91EBC400843951 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B051618C2C91EBC400843951 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		B05161722C91268100843951 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05161762C91268100843951 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		B05161782C91268100843951 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B05161852C91333200843951 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = Landmarks/CircleImage.swift; sourceTree = SOURCE_ROOT; };
+		B05161882C91356700843951 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B051618A2C91EB9700843951 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		B051618C2C91EBC400843951 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		B051614F2C91268000843951 = {
 			isa = PBXGroup;
 			children = (
+				B051618A2C91EB9700843951 /* landmarkData.json */,
 				B051615A2C91268000843951 /* Landmarks */,
 				B051616B2C91268100843951 /* LandmarksTests */,
 				B05161752C91268100843951 /* LandmarksUITests */,
@@ -94,10 +103,13 @@
 		B051615A2C91268000843951 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				B05161852C91333200843951 /* CircleImage.swift */,
 				B051615B2C91268000843951 /* LandmarksApp.swift */,
 				B051615D2C91268000843951 /* ContentView.swift */,
 				B051615F2C91268100843951 /* Assets.xcassets */,
 				B05161612C91268100843951 /* Preview Content */,
+				B05161882C91356700843951 /* MapView.swift */,
+				B051618C2C91EBC400843951 /* Landmark.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			files = (
 				B05161632C91268100843951 /* Preview Assets.xcassets in Resources */,
 				B05161602C91268100843951 /* Assets.xcassets in Resources */,
+				B051618B2C91EB9700843951 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B051615E2C91268000843951 /* ContentView.swift in Sources */,
+				B05161892C91356700843951 /* MapView.swift in Sources */,
 				B051615C2C91268000843951 /* LandmarksApp.swift in Sources */,
+				B05161862C91333200843951 /* CircleImage.swift in Sources */,
+				B051618D2C91EBC400843951 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

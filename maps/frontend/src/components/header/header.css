@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+.header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: space-between; /* Spread items evenly */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds space between items */
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 0;
+}
+
+.header > div {
+    display: flex; /* Ensures content inside each div is inline if needed */
+    gap: 20px; /* Adds spacing between elements */
+    /* padding: 10px, 25px, 10px, 10px; */
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.bokor-regular-header {
+    font-family: "Bokor", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+  

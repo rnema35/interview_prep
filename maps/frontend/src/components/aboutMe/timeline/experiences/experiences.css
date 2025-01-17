@@ -1,0 +1,43 @@
+.exp-block {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    margin: 10px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, Serif ;
+}
+
+.exp-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Spread items to edges */
+    align-items: center; /* Vertically align items */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px; /* Inner spacing */
+    margin: 10px; /* Space outside the block */
+}
+
+.exp-position-company {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-desc {
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    margin: 5 5 5 5;
+}
